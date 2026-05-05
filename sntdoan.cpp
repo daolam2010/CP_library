@@ -45,29 +45,6 @@ signed main()
     // freopen("bai1.inp", "r", stdin);
     // freopen("bai1.out", "w", stdout);
     faster;
-    snt();
-    int n;
-    cin >> n;
-    while (n--)
-    {
-        int a, b;
-        cin >> a >> b;
-        int cnt = 0;
-        for (int i = a; i <= b; i++)
-        {
-            if (i > N)
-            {
-                if (ktnt(i))
-                    cnt++;
-            }
-            else
-            {
-                if (nt[i])
-                    cnt++;
-            }
-        }
-        cout << cnt << "\n";
-    }
 }
 
 //?????????????????
